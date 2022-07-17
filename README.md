@@ -1,5 +1,5 @@
 # ToDoApp
 
-* ToDoApp with Java, Spring-boot and PostgreSQL.
+* Tech-stack: Java, Spring-boot, PostgreSQL, JUnit5, Mockito.
 
-* Endpoints tested successfully with Postman.
+* CRUD endpoints tested with Postman.
