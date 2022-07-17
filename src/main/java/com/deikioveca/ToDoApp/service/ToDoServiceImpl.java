@@ -29,7 +29,7 @@ public class ToDoServiceImpl implements ToDoService {
         if (!toDo.isPresent()) {
             throw new Exception(String.format("ToDo with id: %d does not exist!", id));
         }
-        toDoRepository.delete(toDo.get());
+        toDoRepository.deleteById(toDo.get().getId());
     }
 
     @Override
